@@ -233,7 +233,9 @@ options = Options(
 )
 
 dependencies = """
-
+crimson-ast-dev-tool
+crimson-auto-pydantic
+crimson-types-beta
 """
 
 
