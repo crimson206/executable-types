@@ -58,7 +58,7 @@ def generate_meta_dict(
     meta_annotations: MetaAnnotations_[
         Dict[ArgumentName_[str], MetaAnnotation_[List[str]] | None]
     ],
-    args_fields: Dict[str, FieldInfo],
+    args_fields: Dict[str, FieldInfo] = {},
 ) -> MetaDict_[Dict[str, int]]:
     """
     You will want to implement this by yourself,
